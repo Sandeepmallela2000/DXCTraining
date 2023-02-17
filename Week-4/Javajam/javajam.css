@@ -1,0 +1,19 @@
+h2 { color:black;
+    text-align:center;
+     background-color: #d2b48c; }
+    
+     .b{  
+         
+        
+         font-size: medium;
+         font-weight: bolder;
+        }
+        title { color: black; }
+        nav{ text-align:center;}
+        footer{text-align:center;
+            background-color: #d2b48c;}
+        h3{ margin-left:4%;}
+        p{margin-left:4%;
+          font-size:small;}
+        
+        body{background-color:#FCEBB6;}

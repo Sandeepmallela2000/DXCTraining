@@ -1,0 +1,30 @@
+.d{
+    background-image: url("Images/sunset.jpg");
+    
+    background-position:300px;
+    
+}
+    
+    footer{
+        text-align: center;
+        background-color: beige;
+    }
+    
+@media only screen and (max-width: 1024px) {      
+#wrapper { width: auto;
+margin-left:10%;
+margin-right:10%;
+margin-top:10%;
+margin-bottom:10%;
+background-color:skyblue; }
+body{ background-color: seagreen;}
+}
+@media only screen and (max-width: 768px) {      
+#wrapper { width: auto;
+margin-left:10%;
+margin-right:10%;
+margin-top:10%;
+margin-bottom:10%;
+background-color:skyblue; }
+body{ background-color: seagreen;}
+}

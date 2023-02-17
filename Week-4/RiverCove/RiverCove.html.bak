@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Graphic model</title>
+    <link rel="stylesheet" href="rivercove.css">
+    <meta charset="utf-8">
+    </head>
+    <body class="wrapper">
+        <div id="wrapper">
+        <h2 class="d">RiverCove Inn</h2>
+        <nav>
+            <b><a href="home.html">Home</a> &nbsp;
+            <a href="activities.html">Activities</a> &nbsp;
+            <a href="corporate bookings.html">Corporate Bookings</a> &nbsp;
+            <a href="reservation.html">Reservation</a>
+            </b>
+            <main>
+           <p align=center><img src="Images/nature.jpg" alt="image here" height="200px" width="70%"></p>
+          
+            </main>
+            </nav>
+            <h3>For a Relaxing Vacation or a Business Trip</h3>
+            <p>RiverCove Inn offers a lovely experience for everyone.Are you looking for a reloding<br>
+            vacations,or are you looking for the perfect place to host your conference?We're the perfect<br>
+            place for you.</p>
+            <ul type="circle">
+                <li>Beautiful rooms with excellent views</li>
+                 <li>Excellent dining facilities</li>
+                 <li>Free Laundry</li>
+                 <li>Free Pickups</li>
+                 <li>Sightseeing tours</li>
+                 <li>Swimming pools,gymnasiums, and other facilities</li>
+            
+             </ul>
+             <b><h4>RiverCove Inn</h4></b>
+             <ul>
+                1202 Redwood Hills<br>
+                Santa Monica,CA 95555<br><br>
+                888-777-654<br>
+             
+             </ul>
+             <footer>
+                <small><i>Copyright @ 2023 RiverCoveInn </i></small><br>
+                Rivercoreinn@gmail.com<br>
+               </footer>
+   </div>
+            </body>
+
+    </html>

@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Delete {
+public class BMS {
 	  static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
 	  static final String DB_URL = "jdbc:mysql://localhost/dxc";
 
