@@ -1,0 +1,34 @@
+<div class="container container-style">
+    <div><h5 class="head-style">Car Ride Registration Form</h5></div>
+    <div class="form-content">
+      <form>
+       <tr><label>Name</label></tr>
+        <tr><input type="text" #name required/></tr>
+    
+       <tr><label>Start Location</label></tr>
+       <tr> <input type="text" required/></tr>
+    
+    <tr><label>Destination</label></tr>
+       <tr> <input type="text" required/></tr>
+    
+    <tr><label>Car</label></tr>
+       <tr> <input type="text" required/></tr>
+    
+    <tr><label>Seats Available</label></tr>
+       <tr> <input type="number" required/></tr>
+    <br />
+<div id="container">
+        <button type="submit" class="btn btn-primary" (click)="onBook()">Book</button>
+    </div>
+    </form>
+    </div>
+    <div *ngIf="submit">
+        <div *ngIf="isBooked; else failureMsg">
+          
+          <h4 class = "text-success" style="text-align: center">Booking Successful!!</h4>
+        </div>
+        <ng-template #failureMsg>
+          <h4>Booking Unsuccessful!!</h4>
+        </ng-template>
+      </div>
+</div>
